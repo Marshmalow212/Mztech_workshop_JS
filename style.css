@@ -7,3 +7,16 @@ body{
 .navbar{
     background: teal !important;
 }
+
+.fa{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.active{
+    color: white !important;
+    border-bottom: 2px solid white ;
+    
+}
+
+

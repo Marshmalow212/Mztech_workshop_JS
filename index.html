@@ -9,10 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    
     <!-- Font awesome - https://fontawesome.com/v4.7.0/icons/ -->
-    <link rel=“stylesheet” href=“https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css”>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
     <link href="carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
@@ -22,26 +21,26 @@
     
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">                                 >
-        <a class="navbar-brand">Portfolio</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">                                 
+        <a class="navbar-brand" href="#home">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button> 
 
           <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item "><a class="nav-link " href="#home" aria-hidden="true"> Home </a></li>
-                  <li class="nav-item "><a class="nav-link " href="#profile" aria-hidden="true" >Porfile</a></li>
-                  <li class="nav-item "><a class="nav-link " href="#projects" aria-hidden="true">Projects</a></li>
-                  <li class="nav-item "><a class="nav-link " href="#contact" aria-hidden="true">Contact</a></li>
+                  <li class="nav-item active " id="home_li"><a class="nav-link " href="#home" aria-hidden="true"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li> 
+                  <li class="nav-item "><a class="nav-link " href="#profile" aria-hidden="true"><i class="fa fa-user" aria-hidden="true"></i>Profile</a></li>
+                  <li class="nav-item "><a class="nav-link " href="#projects" aria-hidden="true"><i class="fa fa-gavel" aria-hidden="true"></i>Projects</a></li>
+                  <li class="nav-item "><a class="nav-link " href="#contact" aria-hidden="true"><i class="fa fa-telegram" aria-hidden="true"></i>Contact</a></li>
                   
               </ul>
 
               <form class="form-inline mt-2 mt-md-0" action="">
                   <input class="form-control mr-sm-2" type="text"
-                  placeholder="Search" aria-label="Search" >
+                  placeholder="Search" aria-label="Search" id="sbar" >
 
-                  <button type="button" class="btn btn-outline-dark">Search</button>
+                  <button type="submit" class="btn btn-outline-dark my-2" id="ssbtn">Search</button>
               </form>
           </div>
 
