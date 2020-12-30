@@ -21,3 +21,12 @@ $(search_btn).on('click',function(){
     console.log(search_bar_text);
     $(document.getElementById("sbar").value=null);
 });
+
+var navtoggler = document.getElementsByClassName("navbar-toggler");
+
+$(navtoggler).on('click',function(){
+    $(document.getElementById("navbarCollapse")).toggleClass('collapse'); 
+    $(document.getElementsByClassName("nav-item")).on('click',function(){
+        $(document.getElementById("navbarCollapse")).toggleClass('collapse');
+    });
+});
