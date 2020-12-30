@@ -42,13 +42,26 @@ body{
 
 }
 
+.container_personal{
+    margin: 1rem 5rem 1rem 5rem;
+    position: absolute;
+}
+
 .img_profile{
    max-width:20rem ; 
    height: 20rem;
+   display: block;
+   position: relative;
+}
+.profile_down{
+    position: relative;
+    display: inline;
+    font-size: 20px;
 }
 .profile_header{
-    margin-left: 40%;
-}
+    margin-left: 60%;
+    position: relative;
+}  
 
 .short_sum{
     font-weight: lighter;
