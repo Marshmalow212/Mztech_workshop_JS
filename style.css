@@ -47,24 +47,25 @@ body{
     position: absolute;
 }
 
-.img_profile{
+/* /* .img_profile{
    max-width:20rem ; 
    height: 20rem;
    display: block;
-   position: relative;
+   position: relative; */
 }
 .profile_down{
-    position: relative;
-    display: inline;
+    
     font-size: 20px;
 }
-.profile_header{
+/* .profile_header{
     margin-left: 60%;
     position: relative;
-}  
+}   */
 
 .short_sum{
     font-weight: lighter;
     font-size: 25px;
-}
-
+} 
+/* .img-fluid{
+    max-width:50% ;
+} */
