@@ -43,8 +43,7 @@ body{
 }
 
 .container_personal{
-    margin: 1rem 5rem 1rem 5rem;
-    position: absolute;
+    background-color: rgba(22, 160, 133,0.3);
 }
 
 /* /* .img_profile{
