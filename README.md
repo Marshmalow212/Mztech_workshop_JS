@@ -1,2 +1,3 @@
-# Mztech_workshop_JS
-Project based workshop on JS.
+# Portfolio Project
+A Personal Web Development project.
+Used technology: html, css , bootstrap, javascript
